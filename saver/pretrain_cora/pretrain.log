@@ -1,0 +1,290 @@
+2018-05-23 10:16:20,676 [INFO]: Loading data...
+2018-05-23 10:16:28,164 [INFO]: Finish loading data
+2018-05-23 10:16:28,165 [INFO]: ################ Hyper Settings ################
+2018-05-23 10:16:28,165 [INFO]: pretrain_print_step: 1
+2018-05-23 10:16:28,165 [INFO]: init_lr_train: 0.001
+2018-05-23 10:16:28,165 [INFO]: dataset: cora
+2018-05-23 10:16:28,166 [INFO]: train_max_epoch: 50
+2018-05-23 10:16:28,166 [INFO]: trained_print_step: 1
+2018-05-23 10:16:28,166 [INFO]: lambda_w: 0.0001
+2018-05-23 10:16:28,166 [INFO]: data_dir: data/cora/
+2018-05-23 10:16:28,166 [INFO]: pretrain_layers_list: [200, 100]
+2018-05-23 10:16:28,166 [INFO]: print_words_step: 2
+2018-05-23 10:16:28,166 [INFO]: init_lr_pretrain: 0.01
+2018-05-23 10:16:28,166 [INFO]: pretrain_dir: saver/pretrain_cora/
+2018-05-23 10:16:28,166 [INFO]: test_step: 2
+2018-05-23 10:16:28,166 [INFO]: activations: ['sigmoid', 'sigmoid']
+2018-05-23 10:16:28,166 [INFO]: lr_decay: 0.1
+2018-05-23 10:16:28,167 [INFO]: hidden_dim: 50
+2018-05-23 10:16:28,167 [INFO]: top_k: 10
+2018-05-23 10:16:28,167 [INFO]: noise: mask-0.3
+2018-05-23 10:16:28,167 [INFO]: negative_num: 3
+2018-05-23 10:16:28,167 [INFO]: batch_size: 128
+2018-05-23 10:16:28,167 [INFO]: loss: cross-entropy
+2018-05-23 10:16:28,167 [INFO]: trained_dir: saver/trained_cora/
+2018-05-23 10:16:28,167 [INFO]: pretrain_max_epoch: 50
+2018-05-23 10:16:28,167 [INFO]: cf_layers_list: [50, 25, 8, 1]
+2018-05-23 10:16:28,167 [INFO]: mode: 1
+2018-05-23 10:16:28,167 [INFO]: ################ Hyper Settings ################
+2018-05-23 10:16:28,167 [INFO]: ############################################################
+2018-05-23 10:16:28,167 [INFO]: Current mode is 1
+2018-05-23 10:16:28,168 [INFO]: ############################################################
+
+2018-05-23 10:16:28,168 [INFO]: Pretraining...
+2018-05-23 10:16:33,934 [INFO]: Vallina pre-training...
+2018-05-23 10:16:33,934 [INFO]: Training layer 1
+2018-05-23 10:16:42,686 [INFO]: Epoch 1: avg batch loss = 384.082811838
+2018-05-23 10:16:49,736 [INFO]: Epoch 2: avg batch loss = 94.6262963536
+2018-05-23 10:16:56,640 [INFO]: Epoch 3: avg batch loss = 93.0867128487
+2018-05-23 10:17:04,062 [INFO]: Epoch 4: avg batch loss = 91.2929844684
+2018-05-23 10:17:11,206 [INFO]: Epoch 5: avg batch loss = 91.1512425434
+2018-05-23 10:17:18,657 [INFO]: Epoch 6: avg batch loss = 90.9889479488
+2018-05-23 10:17:25,722 [INFO]: Epoch 7: avg batch loss = 89.8414338813
+2018-05-23 10:17:32,808 [INFO]: Epoch 8: avg batch loss = 88.2741973142
+2018-05-23 10:17:40,114 [INFO]: Epoch 9: avg batch loss = 87.1397921091
+2018-05-23 10:17:47,209 [INFO]: Epoch 10: avg batch loss = 85.8631591797
+2018-05-23 10:17:54,274 [INFO]: Epoch 11: avg batch loss = 84.7313848289
+2018-05-23 10:18:01,173 [INFO]: Epoch 12: avg batch loss = 83.2191781653
+2018-05-23 10:18:08,285 [INFO]: Epoch 13: avg batch loss = 81.8267237652
+2018-05-23 10:18:15,139 [INFO]: Epoch 14: avg batch loss = 80.5014381868
+2018-05-23 10:18:22,122 [INFO]: Epoch 15: avg batch loss = 79.2178931179
+2018-05-23 10:18:29,356 [INFO]: Epoch 16: avg batch loss = 78.4740349643
+2018-05-23 10:18:36,230 [INFO]: Epoch 17: avg batch loss = 76.997472832
+2018-05-23 10:18:42,920 [INFO]: Epoch 18: avg batch loss = 75.9404967894
+2018-05-23 10:18:49,403 [INFO]: Epoch 19: avg batch loss = 74.9601754798
+2018-05-23 10:18:55,893 [INFO]: Epoch 20: avg batch loss = 74.0984395039
+2018-05-23 10:19:02,614 [INFO]: Epoch 21: avg batch loss = 72.4924079252
+2018-05-23 10:19:08,877 [INFO]: Epoch 22: avg batch loss = 71.6062713072
+2018-05-23 10:19:15,430 [INFO]: Epoch 23: avg batch loss = 70.2850521042
+2018-05-23 10:19:22,050 [INFO]: Epoch 24: avg batch loss = 69.5606159072
+2018-05-23 10:19:28,620 [INFO]: Epoch 25: avg batch loss = 68.5067980663
+2018-05-23 10:19:34,957 [INFO]: Epoch 26: avg batch loss = 67.539523389
+2018-05-23 10:19:41,289 [INFO]: Epoch 27: avg batch loss = 66.3047387456
+2018-05-23 10:19:47,792 [INFO]: Epoch 28: avg batch loss = 65.6498747676
+2018-05-23 10:19:54,297 [INFO]: Epoch 29: avg batch loss = 65.1985635413
+2018-05-23 10:20:01,078 [INFO]: Epoch 30: avg batch loss = 63.8994654001
+2018-05-23 10:20:07,360 [INFO]: Epoch 31: avg batch loss = 63.330957068
+2018-05-23 10:20:13,846 [INFO]: Epoch 32: avg batch loss = 62.1256014812
+2018-05-23 10:20:20,413 [INFO]: Epoch 33: avg batch loss = 61.6398091144
+2018-05-23 10:20:26,844 [INFO]: Epoch 34: avg batch loss = 60.5926435999
+2018-05-23 10:20:33,034 [INFO]: Epoch 35: avg batch loss = 60.5065383911
+2018-05-23 10:20:39,726 [INFO]: Epoch 36: avg batch loss = 59.3548340395
+2018-05-23 10:20:47,029 [INFO]: Epoch 37: avg batch loss = 59.3028239055
+2018-05-23 10:20:53,981 [INFO]: Epoch 38: avg batch loss = 57.9674536464
+2018-05-23 10:21:00,484 [INFO]: Epoch 39: avg batch loss = 57.5266925398
+2018-05-23 10:21:06,905 [INFO]: Epoch 40: avg batch loss = 57.2052903233
+2018-05-23 10:21:13,572 [INFO]: Epoch 41: avg batch loss = 56.1933546411
+2018-05-23 10:21:19,921 [INFO]: Epoch 42: avg batch loss = 55.8447728904
+2018-05-23 10:21:26,805 [INFO]: Epoch 43: avg batch loss = 55.0999896957
+2018-05-23 10:21:33,502 [INFO]: Epoch 44: avg batch loss = 55.1147038104
+2018-05-23 10:21:40,298 [INFO]: Epoch 45: avg batch loss = 54.446063214
+2018-05-23 10:21:47,374 [INFO]: Epoch 46: avg batch loss = 53.9081553723
+2018-05-23 10:21:54,290 [INFO]: Epoch 47: avg batch loss = 53.4246464925
+2018-05-23 10:22:01,172 [INFO]: Epoch 48: avg batch loss = 53.1913064704
+2018-05-23 10:22:07,662 [INFO]: Epoch 49: avg batch loss = 52.9295485623
+2018-05-23 10:22:14,573 [INFO]: Epoch 50: avg batch loss = 52.2396355594
+2018-05-23 10:22:15,483 [INFO]: Vallina pre-training...
+2018-05-23 10:22:15,483 [INFO]: Training layer 2
+2018-05-23 10:22:16,532 [INFO]: Epoch 1: avg batch loss = 131.566996287
+2018-05-23 10:22:17,189 [INFO]: Epoch 2: avg batch loss = 125.916703741
+2018-05-23 10:22:17,738 [INFO]: Epoch 3: avg batch loss = 124.211734358
+2018-05-23 10:22:18,367 [INFO]: Epoch 4: avg batch loss = 123.744037123
+2018-05-23 10:22:18,984 [INFO]: Epoch 5: avg batch loss = 123.456259394
+2018-05-23 10:22:19,507 [INFO]: Epoch 6: avg batch loss = 123.218408148
+2018-05-23 10:22:20,129 [INFO]: Epoch 7: avg batch loss = 123.206471087
+2018-05-23 10:22:20,708 [INFO]: Epoch 8: avg batch loss = 123.010051681
+2018-05-23 10:22:21,282 [INFO]: Epoch 9: avg batch loss = 122.94718593
+2018-05-23 10:22:21,916 [INFO]: Epoch 10: avg batch loss = 122.861251647
+2018-05-23 10:22:22,497 [INFO]: Epoch 11: avg batch loss = 122.873558872
+2018-05-23 10:22:23,141 [INFO]: Epoch 12: avg batch loss = 122.757915175
+2018-05-23 10:22:23,772 [INFO]: Epoch 13: avg batch loss = 122.74706682
+2018-05-23 10:22:24,398 [INFO]: Epoch 14: avg batch loss = 122.712869943
+2018-05-23 10:22:25,016 [INFO]: Epoch 15: avg batch loss = 122.729604514
+2018-05-23 10:22:25,568 [INFO]: Epoch 16: avg batch loss = 122.705029867
+2018-05-23 10:22:26,211 [INFO]: Epoch 17: avg batch loss = 122.480714821
+2018-05-23 10:22:26,824 [INFO]: Epoch 18: avg batch loss = 122.507032004
+2018-05-23 10:22:27,453 [INFO]: Epoch 19: avg batch loss = 122.501486721
+2018-05-23 10:22:28,080 [INFO]: Epoch 20: avg batch loss = 122.625525785
+2018-05-23 10:22:28,732 [INFO]: Epoch 21: avg batch loss = 122.47915916
+2018-05-23 10:22:29,317 [INFO]: Epoch 22: avg batch loss = 122.464466417
+2018-05-23 10:22:29,976 [INFO]: Epoch 23: avg batch loss = 122.442014763
+2018-05-23 10:22:30,563 [INFO]: Epoch 24: avg batch loss = 122.34077904
+2018-05-23 10:22:31,201 [INFO]: Epoch 25: avg batch loss = 122.383166118
+2018-05-23 10:22:31,731 [INFO]: Epoch 26: avg batch loss = 122.273986816
+2018-05-23 10:22:32,248 [INFO]: Epoch 27: avg batch loss = 122.302055359
+2018-05-23 10:22:32,758 [INFO]: Epoch 28: avg batch loss = 122.271755081
+2018-05-23 10:22:33,343 [INFO]: Epoch 29: avg batch loss = 122.245053395
+2018-05-23 10:22:33,878 [INFO]: Epoch 30: avg batch loss = 122.345253358
+2018-05-23 10:22:34,447 [INFO]: Epoch 31: avg batch loss = 122.2717469
+2018-05-23 10:22:34,937 [INFO]: Epoch 32: avg batch loss = 122.299806986
+2018-05-23 10:22:35,493 [INFO]: Epoch 33: avg batch loss = 122.259101592
+2018-05-23 10:22:36,050 [INFO]: Epoch 34: avg batch loss = 122.264588781
+2018-05-23 10:22:36,601 [INFO]: Epoch 35: avg batch loss = 122.225559924
+2018-05-23 10:22:37,150 [INFO]: Epoch 36: avg batch loss = 122.298268422
+2018-05-23 10:22:37,722 [INFO]: Epoch 37: avg batch loss = 122.119436425
+2018-05-23 10:22:38,278 [INFO]: Epoch 38: avg batch loss = 122.050627375
+2018-05-23 10:22:38,843 [INFO]: Epoch 39: avg batch loss = 122.164849247
+2018-05-23 10:22:39,344 [INFO]: Epoch 40: avg batch loss = 122.178864812
+2018-05-23 10:22:39,901 [INFO]: Epoch 41: avg batch loss = 122.187422143
+2018-05-23 10:22:40,432 [INFO]: Epoch 42: avg batch loss = 122.185162832
+2018-05-23 10:22:40,987 [INFO]: Epoch 43: avg batch loss = 122.139893405
+2018-05-23 10:22:41,552 [INFO]: Epoch 44: avg batch loss = 122.070346786
+2018-05-23 10:22:42,191 [INFO]: Epoch 45: avg batch loss = 121.972858107
+2018-05-23 10:22:42,797 [INFO]: Epoch 46: avg batch loss = 122.172883918
+2018-05-23 10:22:43,327 [INFO]: Epoch 47: avg batch loss = 122.117311501
+2018-05-23 10:22:43,906 [INFO]: Epoch 48: avg batch loss = 122.028520515
+2018-05-23 10:22:44,425 [INFO]: Epoch 49: avg batch loss = 122.113219296
+2018-05-23 10:22:45,010 [INFO]: Epoch 50: avg batch loss = 121.947203211
+2018-05-23 10:22:45,035 [INFO]: Latent pre-training...
+2018-05-23 10:22:46,091 [INFO]: Epoch 1: avg batch loss = 49.5660414179, gen loss = 45.297831294, latent loss = 4.26820992274
+2018-05-23 10:22:46,302 [INFO]: Epoch 2: avg batch loss = 44.3894440984, gen loss = 41.6000800995, latent loss = 2.78936398173
+2018-05-23 10:22:46,512 [INFO]: Epoch 3: avg batch loss = 42.9898602129, gen loss = 40.8967457507, latent loss = 2.09311452975
+2018-05-23 10:22:46,729 [INFO]: Epoch 4: avg batch loss = 41.9207241104, gen loss = 40.4074511241, latent loss = 1.51327303806
+2018-05-23 10:22:46,950 [INFO]: Epoch 5: avg batch loss = 40.8329329893, gen loss = 39.7784506556, latent loss = 1.0544824593
+2018-05-23 10:22:47,160 [INFO]: Epoch 6: avg batch loss = 40.4055531054, gen loss = 39.5982138852, latent loss = 0.807339244578
+2018-05-23 10:22:47,347 [INFO]: Epoch 7: avg batch loss = 40.231850176, gen loss = 39.5772863641, latent loss = 0.654563702733
+2018-05-23 10:22:47,524 [INFO]: Epoch 8: avg batch loss = 40.150900002, gen loss = 39.5228101891, latent loss = 0.628089829382
+2018-05-23 10:22:47,740 [INFO]: Epoch 9: avg batch loss = 40.088089311, gen loss = 39.430946488, latent loss = 0.65714273898
+2018-05-23 10:22:47,949 [INFO]: Epoch 10: avg batch loss = 40.010515236, gen loss = 39.3156802626, latent loss = 0.694834854948
+2018-05-23 10:22:48,164 [INFO]: Epoch 11: avg batch loss = 39.975058728, gen loss = 39.2073833512, latent loss = 0.767675343048
+2018-05-23 10:22:48,353 [INFO]: Epoch 12: avg batch loss = 39.9728934047, gen loss = 39.1737765576, latent loss = 0.799116705556
+2018-05-23 10:22:48,567 [INFO]: Epoch 13: avg batch loss = 40.0342334609, gen loss = 39.2178996442, latent loss = 0.816333924431
+2018-05-23 10:22:48,818 [INFO]: Epoch 14: avg batch loss = 39.9184671885, gen loss = 39.1008850925, latent loss = 0.817582159157
+2018-05-23 10:22:49,036 [INFO]: Epoch 15: avg batch loss = 39.9795159489, gen loss = 39.1238566479, latent loss = 0.855659311794
+2018-05-23 10:22:49,227 [INFO]: Epoch 16: avg batch loss = 40.0556147012, gen loss = 39.202884812, latent loss = 0.85272994817
+2018-05-23 10:22:49,406 [INFO]: Epoch 17: avg batch loss = 40.0670744195, gen loss = 39.2298324309, latent loss = 0.837241883019
+2018-05-23 10:22:49,591 [INFO]: Epoch 18: avg batch loss = 39.9585040449, gen loss = 39.1070428871, latent loss = 0.851461131171
+2018-05-23 10:22:49,780 [INFO]: Epoch 19: avg batch loss = 39.9400971654, gen loss = 39.0704853104, latent loss = 0.869611996484
+2018-05-23 10:22:49,978 [INFO]: Epoch 20: avg batch loss = 40.0442065963, gen loss = 39.1767300525, latent loss = 0.867476795093
+2018-05-23 10:22:50,170 [INFO]: Epoch 21: avg batch loss = 39.9780517027, gen loss = 39.0736053191, latent loss = 0.904446171709
+2018-05-23 10:22:50,357 [INFO]: Epoch 22: avg batch loss = 40.1070689466, gen loss = 39.1914954588, latent loss = 0.915573458356
+2018-05-23 10:22:50,575 [INFO]: Epoch 23: avg batch loss = 40.028155775, gen loss = 39.1359824675, latent loss = 0.892173321132
+2018-05-23 10:22:50,759 [INFO]: Epoch 24: avg batch loss = 39.9442739372, gen loss = 39.0565009979, latent loss = 0.887772915593
+2018-05-23 10:22:50,942 [INFO]: Epoch 25: avg batch loss = 39.9522996466, gen loss = 39.05366415, latent loss = 0.898635411837
+2018-05-23 10:22:51,136 [INFO]: Epoch 26: avg batch loss = 40.0763538315, gen loss = 39.1767690728, latent loss = 0.899584635913
+2018-05-23 10:22:51,332 [INFO]: Epoch 27: avg batch loss = 39.8198449008, gen loss = 38.9319529246, latent loss = 0.887891958995
+2018-05-23 10:22:51,542 [INFO]: Epoch 28: avg batch loss = 39.9786462439, gen loss = 39.0654235748, latent loss = 0.913222499641
+2018-05-23 10:22:51,741 [INFO]: Epoch 29: avg batch loss = 39.8896918239, gen loss = 38.9835586088, latent loss = 0.90613326538
+2018-05-23 10:22:51,947 [INFO]: Epoch 30: avg batch loss = 39.8941819984, gen loss = 38.9726674183, latent loss = 0.921514752399
+2018-05-23 10:22:52,132 [INFO]: Epoch 31: avg batch loss = 40.0098630147, gen loss = 39.096057662, latent loss = 0.913805471845
+2018-05-23 10:22:52,356 [INFO]: Epoch 32: avg batch loss = 40.027727196, gen loss = 39.1038264539, latent loss = 0.92390084123
+2018-05-23 10:22:52,573 [INFO]: Epoch 33: avg batch loss = 40.0460035945, gen loss = 39.1180147837, latent loss = 0.927988905505
+2018-05-23 10:22:52,779 [INFO]: Epoch 34: avg batch loss = 39.9965444358, gen loss = 39.0700176653, latent loss = 0.926526650607
+2018-05-23 10:22:52,976 [INFO]: Epoch 35: avg batch loss = 39.9839087337, gen loss = 39.0730307705, latent loss = 0.910877986845
+2018-05-23 10:22:53,159 [INFO]: Epoch 36: avg batch loss = 39.9912905865, gen loss = 39.070050343, latent loss = 0.921240190426
+2018-05-23 10:22:53,346 [INFO]: Epoch 37: avg batch loss = 39.9610245486, gen loss = 39.0300619286, latent loss = 0.930962395237
+2018-05-23 10:22:53,565 [INFO]: Epoch 38: avg batch loss = 40.025493392, gen loss = 39.0890690907, latent loss = 0.936424429876
+2018-05-23 10:22:53,778 [INFO]: Epoch 39: avg batch loss = 40.0649547347, gen loss = 39.1346485184, latent loss = 0.930306066232
+2018-05-23 10:22:53,978 [INFO]: Epoch 40: avg batch loss = 40.055908295, gen loss = 39.1509636569, latent loss = 0.904944621655
+2018-05-23 10:22:54,163 [INFO]: Epoch 41: avg batch loss = 40.0675681241, gen loss = 39.1247683146, latent loss = 0.942799713956
+2018-05-23 10:22:54,384 [INFO]: Epoch 42: avg batch loss = 40.0463994957, gen loss = 39.1348568101, latent loss = 0.9115426684
+2018-05-23 10:22:54,604 [INFO]: Epoch 43: avg batch loss = 40.1075792428, gen loss = 39.1819157888, latent loss = 0.925663553089
+2018-05-23 10:22:54,820 [INFO]: Epoch 44: avg batch loss = 40.0073022957, gen loss = 39.0775652506, latent loss = 0.929737024279
+2018-05-23 10:22:55,040 [INFO]: Epoch 45: avg batch loss = 39.98847295, gen loss = 39.070737494, latent loss = 0.917735649879
+2018-05-23 10:22:55,237 [INFO]: Epoch 46: avg batch loss = 40.0743499664, gen loss = 39.1427550258, latent loss = 0.931594885257
+2018-05-23 10:22:55,429 [INFO]: Epoch 47: avg batch loss = 40.0680841193, gen loss = 39.1465278993, latent loss = 0.921556427536
+2018-05-23 10:22:55,651 [INFO]: Epoch 48: avg batch loss = 40.0669978958, gen loss = 39.1203867901, latent loss = 0.946611006576
+2018-05-23 10:22:55,874 [INFO]: Epoch 49: avg batch loss = 39.960113985, gen loss = 39.0365868074, latent loss = 0.923527226391
+2018-05-23 10:22:56,091 [INFO]: Epoch 50: avg batch loss = 39.901326237, gen loss = 38.968778863, latent loss = 0.932547338756
+2018-05-23 10:22:56,116 [INFO]: Combined pre-training...
+2018-05-23 10:23:00,417 [INFO]: Epoch 1: avg batch loss = 91.142659015, gen loss = 88.6452859166, latent loss = 2.49737291236, valid loss = 86.0355580028
+2018-05-23 10:23:02,383 [INFO]: Epoch 2: avg batch loss = 88.0948673846, gen loss = 84.7190279673, latent loss = 3.3758395465, valid loss = 84.748217606
+2018-05-23 10:23:04,312 [INFO]: Epoch 3: avg batch loss = 88.2220460823, gen loss = 84.3183165401, latent loss = 3.90372907972, valid loss = 83.8348510556
+2018-05-23 10:23:06,262 [INFO]: Epoch 4: avg batch loss = 87.6904130499, gen loss = 83.4985768881, latent loss = 4.19183601529, valid loss = 83.3332026412
+2018-05-23 10:23:08,200 [INFO]: Epoch 5: avg batch loss = 87.30148582, gen loss = 82.927193791, latent loss = 4.37429193704, valid loss = 82.8334454792
+2018-05-23 10:23:10,323 [INFO]: Epoch 6: avg batch loss = 87.1012796609, gen loss = 82.464198101, latent loss = 4.63708135306, valid loss = 82.1621140271
+2018-05-23 10:23:12,411 [INFO]: Epoch 7: avg batch loss = 86.7030624022, gen loss = 81.8929239296, latent loss = 4.81013859898, valid loss = 81.4650237851
+2018-05-23 10:23:14,526 [INFO]: Epoch 8: avg batch loss = 86.4365486237, gen loss = 81.3848841104, latent loss = 5.0516641456, valid loss = 81.1448983914
+2018-05-23 10:23:16,532 [INFO]: Epoch 9: avg batch loss = 86.0170719193, gen loss = 80.8301503744, latent loss = 5.1869216827, valid loss = 80.6820636842
+2018-05-23 10:23:18,451 [INFO]: Epoch 10: avg batch loss = 85.682508078, gen loss = 80.389117689, latent loss = 5.29339032575, valid loss = 80.2258583627
+2018-05-23 10:23:20,372 [INFO]: Epoch 11: avg batch loss = 85.4277501853, gen loss = 79.974158965, latent loss = 5.45359130653, valid loss = 79.5484094387
+2018-05-23 10:23:22,306 [INFO]: Epoch 12: avg batch loss = 85.1331081161, gen loss = 79.5422251138, latent loss = 5.59088270348, valid loss = 79.1208231856
+2018-05-23 10:23:24,255 [INFO]: Epoch 13: avg batch loss = 84.6753900367, gen loss = 78.9398252188, latent loss = 5.73556533492, valid loss = 79.0625479163
+2018-05-23 10:23:26,286 [INFO]: Epoch 14: avg batch loss = 84.4685472236, gen loss = 78.597657353, latent loss = 5.8708903531, valid loss = 78.2868112704
+2018-05-23 10:23:28,195 [INFO]: Epoch 15: avg batch loss = 84.2299226508, gen loss = 78.227036074, latent loss = 6.00288650214, valid loss = 78.22621406
+2018-05-23 10:23:30,125 [INFO]: Epoch 16: avg batch loss = 84.0805910409, gen loss = 77.9620870567, latent loss = 6.1185036912, valid loss = 77.8235442929
+2018-05-23 10:23:32,229 [INFO]: Epoch 17: avg batch loss = 83.8613101086, gen loss = 77.6337290385, latent loss = 6.22758132291, valid loss = 77.4428962149
+2018-05-23 10:23:34,338 [INFO]: Epoch 18: avg batch loss = 83.9341279915, gen loss = 77.6174444176, latent loss = 6.31668339005, valid loss = 77.1505350252
+2018-05-23 10:23:36,265 [INFO]: Epoch 19: avg batch loss = 83.3804085054, gen loss = 76.9470269996, latent loss = 6.43338123, valid loss = 76.7427281636
+2018-05-23 10:23:38,228 [INFO]: Epoch 20: avg batch loss = 83.0742513817, gen loss = 76.5884679771, latent loss = 6.48578343908, valid loss = 76.5559863579
+2018-05-23 10:23:40,211 [INFO]: Epoch 21: avg batch loss = 82.5863208081, gen loss = 76.0407299363, latent loss = 6.54559086604, valid loss = 76.2879151135
+2018-05-23 10:23:42,147 [INFO]: Epoch 22: avg batch loss = 82.6891253368, gen loss = 76.035508581, latent loss = 6.65361688798, valid loss = 75.9138479465
+2018-05-23 10:23:44,314 [INFO]: Epoch 23: avg batch loss = 82.2587093675, gen loss = 75.4572684047, latent loss = 6.80144103751, valid loss = 75.6483050091
+2018-05-23 10:23:46,531 [INFO]: Epoch 24: avg batch loss = 82.2674224118, gen loss = 75.3344703582, latent loss = 6.93295227189, valid loss = 75.1066503757
+2018-05-23 10:23:48,469 [INFO]: Epoch 25: avg batch loss = 82.0818873945, gen loss = 75.0642063187, latent loss = 7.01768104714, valid loss = 74.9638668153
+2018-05-23 10:23:50,595 [INFO]: Epoch 26: avg batch loss = 81.81616597, gen loss = 74.7154390266, latent loss = 7.10072665042, valid loss = 74.7216711277
+2018-05-23 10:23:52,551 [INFO]: Epoch 27: avg batch loss = 81.4589544089, gen loss = 74.2497554917, latent loss = 7.20919898045, valid loss = 74.4086957792
+2018-05-23 10:23:54,514 [INFO]: Epoch 28: avg batch loss = 81.1893791291, gen loss = 73.9202437803, latent loss = 7.26913523387, valid loss = 74.1892299187
+2018-05-23 10:23:56,562 [INFO]: Epoch 29: avg batch loss = 81.1730337488, gen loss = 73.7852351177, latent loss = 7.38779868275, valid loss = 73.7179411911
+2018-05-23 10:23:58,528 [INFO]: Epoch 30: avg batch loss = 80.9150409009, gen loss = 73.4574697104, latent loss = 7.457570932, valid loss = 73.1952198308
+2018-05-23 10:24:00,698 [INFO]: Epoch 31: avg batch loss = 81.0564647812, gen loss = 73.4395504687, latent loss = 7.61691445615, valid loss = 73.1575465319
+2018-05-23 10:24:02,874 [INFO]: Epoch 32: avg batch loss = 80.8388346477, gen loss = 73.165614852, latent loss = 7.67321925565, valid loss = 72.7757534864
+2018-05-23 10:24:05,004 [INFO]: Epoch 33: avg batch loss = 80.5839715061, gen loss = 72.8197728352, latent loss = 7.76419838365, valid loss = 72.670121821
+2018-05-23 10:24:06,990 [INFO]: Epoch 34: avg batch loss = 80.247054686, gen loss = 72.3612307813, latent loss = 7.88582383006, valid loss = 72.6223644164
+2018-05-23 10:24:09,028 [INFO]: Epoch 35: avg batch loss = 80.36763791, gen loss = 72.441647633, latent loss = 7.92599046087, valid loss = 72.1486635906
+2018-05-23 10:24:11,000 [INFO]: Epoch 36: avg batch loss = 80.1387417345, gen loss = 72.1656086933, latent loss = 7.97313289183, valid loss = 72.1407327419
+2018-05-23 10:24:12,982 [INFO]: Epoch 37: avg batch loss = 80.1122148813, gen loss = 72.0381761114, latent loss = 8.07403855726, valid loss = 71.5223685474
+2018-05-23 10:24:15,153 [INFO]: Epoch 38: avg batch loss = 79.8875213072, gen loss = 71.64418471, latent loss = 8.24333644775, valid loss = 71.5942941991
+2018-05-23 10:24:17,120 [INFO]: Epoch 39: avg batch loss = 79.4379120792, gen loss = 71.1818408277, latent loss = 8.25607135497, valid loss = 71.2163824686
+2018-05-23 10:24:19,093 [INFO]: Epoch 40: avg batch loss = 79.2659929574, gen loss = 70.9164011392, latent loss = 8.34959159989, valid loss = 70.9673571703
+2018-05-23 10:24:21,291 [INFO]: Epoch 41: avg batch loss = 79.4833139626, gen loss = 71.0405830475, latent loss = 8.44273113343, valid loss = 70.7589501172
+2018-05-23 10:24:23,357 [INFO]: Epoch 42: avg batch loss = 79.2535430724, gen loss = 70.797704306, latent loss = 8.45583852515, valid loss = 70.4687016185
+2018-05-23 10:24:25,350 [INFO]: Epoch 43: avg batch loss = 78.9161911011, gen loss = 70.359907495, latent loss = 8.55628403698, valid loss = 70.3124599922
+2018-05-23 10:24:27,323 [INFO]: Epoch 44: avg batch loss = 79.0196458748, gen loss = 70.3494186401, latent loss = 8.67022753336, valid loss = 70.0913781887
+2018-05-23 10:24:29,304 [INFO]: Epoch 45: avg batch loss = 78.6316028273, gen loss = 69.9846243801, latent loss = 8.64697817147, valid loss = 70.2441727243
+2018-05-23 10:24:31,292 [INFO]: Epoch 46: avg batch loss = 78.8665368873, gen loss = 70.1143434823, latent loss = 8.75219284195, valid loss = 69.7453231812
+2018-05-23 10:24:33,244 [INFO]: Epoch 47: avg batch loss = 78.9037541769, gen loss = 70.073228859, latent loss = 8.83052549017, valid loss = 69.5753343163
+2018-05-23 10:24:35,214 [INFO]: Epoch 48: avg batch loss = 78.397939659, gen loss = 69.4729000229, latent loss = 8.92503957863, valid loss = 69.2011137241
+2018-05-23 10:24:37,375 [INFO]: Epoch 49: avg batch loss = 78.0346386461, gen loss = 69.1273051802, latent loss = 8.90733345445, valid loss = 68.9876649438
+2018-05-23 10:24:39,615 [INFO]: Epoch 50: avg batch loss = 78.0056089838, gen loss = 69.0141784484, latent loss = 8.99143043196, valid loss = 69.0851188288
+2018-05-23 10:24:41,687 [INFO]: Epoch 51: avg batch loss = 77.9446202473, gen loss = 68.8379806151, latent loss = 9.10663957481, valid loss = 68.913311842
+2018-05-23 10:24:43,635 [INFO]: Epoch 52: avg batch loss = 77.9268581896, gen loss = 68.8206877191, latent loss = 9.10617074622, valid loss = 68.4996056906
+2018-05-23 10:24:45,644 [INFO]: Epoch 53: avg batch loss = 77.9841903319, gen loss = 68.8324245775, latent loss = 9.15176573144, valid loss = 68.4173246244
+2018-05-23 10:24:47,598 [INFO]: Epoch 54: avg batch loss = 77.6808274051, gen loss = 68.4941436584, latent loss = 9.18668381565, valid loss = 68.1699188977
+2018-05-23 10:24:49,551 [INFO]: Epoch 55: avg batch loss = 77.7398622812, gen loss = 68.4581768541, latent loss = 9.2816850938, valid loss = 67.9480031176
+2018-05-23 10:24:51,505 [INFO]: Epoch 56: avg batch loss = 77.4245278232, gen loss = 68.0257184132, latent loss = 9.39880946745, valid loss = 68.1048399762
+2018-05-23 10:24:53,468 [INFO]: Epoch 57: avg batch loss = 77.0837384879, gen loss = 67.7352321579, latent loss = 9.34850651385, valid loss = 67.9178872457
+2018-05-23 10:24:55,421 [INFO]: Epoch 58: avg batch loss = 77.1635925109, gen loss = 67.7746047974, latent loss = 9.38898767908, valid loss = 67.5816296833
+2018-05-23 10:24:57,377 [INFO]: Epoch 59: avg batch loss = 76.9526221034, gen loss = 67.4268003717, latent loss = 9.52582197304, valid loss = 67.595674003
+2018-05-23 10:24:59,353 [INFO]: Epoch 60: avg batch loss = 76.7776865212, gen loss = 67.2509249951, latent loss = 9.52676159503, valid loss = 67.7190337763
+2018-05-23 10:25:01,369 [INFO]: Epoch 61: avg batch loss = 77.104530886, gen loss = 67.5483559298, latent loss = 9.55617495617, valid loss = 67.2905335775
+2018-05-23 10:25:03,305 [INFO]: Epoch 62: avg batch loss = 76.9480713074, gen loss = 67.3079803651, latent loss = 9.6400912641, valid loss = 67.1119038186
+2018-05-23 10:25:05,470 [INFO]: Epoch 63: avg batch loss = 76.6255355283, gen loss = 67.0493842435, latent loss = 9.57615135377, valid loss = 66.9826621544
+2018-05-23 10:25:07,516 [INFO]: Epoch 64: avg batch loss = 76.6417724426, gen loss = 66.9718097549, latent loss = 9.66996287151, valid loss = 66.8315655313
+2018-05-23 10:25:09,649 [INFO]: Epoch 65: avg batch loss = 76.7493683229, gen loss = 67.0222890923, latent loss = 9.72707952936, valid loss = 66.8745821976
+2018-05-23 10:25:11,579 [INFO]: Epoch 66: avg batch loss = 76.5764383523, gen loss = 66.7619574214, latent loss = 9.81448103434, valid loss = 66.613319397
+2018-05-23 10:25:13,565 [INFO]: Epoch 67: avg batch loss = 76.3671497207, gen loss = 66.6338806152, latent loss = 9.73326915143, valid loss = 66.2749707292
+2018-05-23 10:25:15,549 [INFO]: Epoch 68: avg batch loss = 76.356845534, gen loss = 66.4850820518, latent loss = 9.87176395324, valid loss = 66.294657777
+2018-05-23 10:25:17,502 [INFO]: Epoch 69: avg batch loss = 76.1218254365, gen loss = 66.2043758071, latent loss = 9.91744952604, valid loss = 66.2742716626
+2018-05-23 10:25:19,479 [INFO]: Epoch 70: avg batch loss = 76.2039402422, gen loss = 66.2923407497, latent loss = 9.91159957288, valid loss = 65.8258063619
+2018-05-23 10:25:21,463 [INFO]: Epoch 71: avg batch loss = 76.0662039332, gen loss = 66.1314807111, latent loss = 9.93472335999, valid loss = 66.2728326379
+2018-05-23 10:25:23,459 [INFO]: Epoch 72: avg batch loss = 75.8797934659, gen loss = 65.9082921959, latent loss = 9.97150129295, valid loss = 65.9195964162
+2018-05-23 10:25:25,407 [INFO]: Epoch 73: avg batch loss = 75.7305749181, gen loss = 65.6995196055, latent loss = 10.0310552091, valid loss = 65.8034301851
+2018-05-23 10:25:27,359 [INFO]: Epoch 74: avg batch loss = 75.8433745051, gen loss = 65.812860374, latent loss = 10.0305137404, valid loss = 65.638659547
+2018-05-23 10:25:29,323 [INFO]: Epoch 75: avg batch loss = 75.9037799146, gen loss = 65.8726619123, latent loss = 10.0311181172, valid loss = 65.4885466041
+2018-05-23 10:25:31,357 [INFO]: Epoch 76: avg batch loss = 75.9173991192, gen loss = 65.7488236944, latent loss = 10.1685754477, valid loss = 65.3175123726
+2018-05-23 10:25:33,397 [INFO]: Epoch 77: avg batch loss = 75.5985323435, gen loss = 65.4472394277, latent loss = 10.1512931571, valid loss = 65.5586882801
+2018-05-23 10:25:35,444 [INFO]: Epoch 78: avg batch loss = 75.7378142943, gen loss = 65.5120112408, latent loss = 10.2258032948, valid loss = 65.5122039144
+2018-05-23 10:25:37,434 [INFO]: Epoch 79: avg batch loss = 75.5168745661, gen loss = 65.3304782086, latent loss = 10.1863960358, valid loss = 65.4770272883
+2018-05-23 10:25:39,564 [INFO]: Epoch 80: avg batch loss = 75.0623040257, gen loss = 64.9078199088, latent loss = 10.154483462, valid loss = 65.3059404885
+2018-05-23 10:25:41,534 [INFO]: Epoch 81: avg batch loss = 75.4434654512, gen loss = 65.1882360527, latent loss = 10.2552290307, valid loss = 65.3423253036
+2018-05-23 10:25:43,479 [INFO]: Epoch 82: avg batch loss = 75.3383495836, gen loss = 65.0322348813, latent loss = 10.3061149092, valid loss = 64.960358829
+2018-05-23 10:25:45,415 [INFO]: Epoch 83: avg batch loss = 75.018655708, gen loss = 64.6754501986, latent loss = 10.3432057967, valid loss = 65.0007471689
+2018-05-23 10:25:47,391 [INFO]: Epoch 84: avg batch loss = 75.222062536, gen loss = 64.8664235035, latent loss = 10.3556392968, valid loss = 64.9326501242
+2018-05-23 10:25:49,360 [INFO]: Epoch 85: avg batch loss = 75.4667638756, gen loss = 65.0413851451, latent loss = 10.4253788109, valid loss = 64.7628812092
+2018-05-23 10:25:51,347 [INFO]: Epoch 86: avg batch loss = 75.1017812706, gen loss = 64.7491982242, latent loss = 10.3525828626, valid loss = 64.7705186053
+2018-05-23 10:25:53,295 [INFO]: Epoch 87: avg batch loss = 75.0909064419, gen loss = 64.7121367857, latent loss = 10.3787696907, valid loss = 64.619759769
+2018-05-23 10:25:55,271 [INFO]: Epoch 88: avg batch loss = 74.9575737643, gen loss = 64.519152446, latent loss = 10.4384212839, valid loss = 64.599180082
+2018-05-23 10:25:57,223 [INFO]: Epoch 89: avg batch loss = 75.0773371501, gen loss = 64.5864039961, latent loss = 10.4909335906, valid loss = 64.5198730376
+2018-05-23 10:25:59,191 [INFO]: Epoch 90: avg batch loss = 75.1556356039, gen loss = 64.6080104414, latent loss = 10.5476254153, valid loss = 64.2690287799
+2018-05-23 10:26:01,133 [INFO]: Epoch 91: avg batch loss = 74.6888734749, gen loss = 64.1650588713, latent loss = 10.5238150286, valid loss = 64.1657181717
+2018-05-23 10:26:03,084 [INFO]: Epoch 92: avg batch loss = 74.7323538539, gen loss = 64.1850096461, latent loss = 10.5473447018, valid loss = 64.1682327084
+2018-05-23 10:26:05,061 [INFO]: Epoch 93: avg batch loss = 74.6135104995, gen loss = 64.0867846845, latent loss = 10.5267257231, valid loss = 64.1235117563
+2018-05-23 10:26:07,026 [INFO]: Epoch 94: avg batch loss = 74.9939114674, gen loss = 64.3903144009, latent loss = 10.6035971699, valid loss = 64.2924635352
+2018-05-23 10:26:09,025 [INFO]: Epoch 95: avg batch loss = 74.7211083102, gen loss = 64.1423672596, latent loss = 10.5787408208, valid loss = 63.9625688413
+2018-05-23 10:26:10,957 [INFO]: Epoch 96: avg batch loss = 74.9791180714, gen loss = 64.3646999037, latent loss = 10.6144178, valid loss = 64.0043811333
+2018-05-23 10:26:13,125 [INFO]: Epoch 97: avg batch loss = 74.6260447674, gen loss = 63.9953181255, latent loss = 10.6307268258, valid loss = 63.9922609562
+2018-05-23 10:26:15,300 [INFO]: Epoch 98: avg batch loss = 74.6801198017, gen loss = 64.0400182425, latent loss = 10.6401018464, valid loss = 63.9784170011
+2018-05-23 10:26:17,247 [INFO]: Epoch 99: avg batch loss = 74.5578297994, gen loss = 63.8027200354, latent loss = 10.7551091435, valid loss = 63.5871394088
+2018-05-23 10:26:19,216 [INFO]: Epoch 100: avg batch loss = 74.3532508942, gen loss = 63.6243634052, latent loss = 10.7288874431, valid loss = 63.5671161093
+2018-05-23 10:26:19,995 [INFO]: Weights saved at saver/pretrain_cora/
