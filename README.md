@@ -14,3 +14,4 @@ Code for CIKM 2018 paper "Neural Relational Topic Models for Scientific Article 
 ## Remarks
 * The checkpoint files generated from pretraining process have been provided
 * The log files recording the experiment results of the model are also given
+* ...
